@@ -6,6 +6,7 @@ ATrace
 在回调首次被触发时，进行全局的mem dump。 后续回调中，只记录修改部分。
 
 一、基本用法：
+通过frida注入libatrace.so，通过attach或者replace在目标函数中调用以下函数。
 1：
 ATrace(uint64_t *start,  //目标函数起始地址。
        uint64_t *end,      // 结束地址；
