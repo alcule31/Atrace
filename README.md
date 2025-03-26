@@ -1,5 +1,6 @@
 # Atrace
 基于QBDI的android平台下arm64 so层trace工具
+目前处于测试阶段，后续会上传demo
 ATrace
 
 后端trace逻辑。框架已经搭好，目前缺少对全局mem状态的输出。解决方案：在内存回调的逻辑中添加
